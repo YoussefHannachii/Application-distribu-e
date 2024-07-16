@@ -1,0 +1,10 @@
+# Configuration file (03/08/24 14:24:41.290)
+
+# Server configuration
+Ice.Admin.ServerId=AjoutSuppressionM
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=AjoutSuppressionM
+# Object adapter ModuleAjoutSuppM
+ModuleAjoutSuppM.Endpoints=tcp
+ModuleAjoutSuppM.AdapterId=AjoutSuppressionAdapterM
+Ice.Default.Locator=IceGrid/Locator:tcp -p 4061

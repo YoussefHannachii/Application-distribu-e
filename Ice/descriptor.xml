@@ -1,0 +1,9 @@
+<icegrid>
+    <application name="MiniSpotifyL">
+        <node name="Node1">
+            <server id="AjoutSuppressionL" exe="C:\Users\USER\Desktop\MiniSpotify\ServeurAjoutSuppression\dist\serveurAjoutSupp.exe" activation="on-demand">
+                <adapter name="ModuleAjoutSuppL" id="AjoutSuppressionAdapterL" endpoints="tcp"/>
+            </server>
+        </node>
+    </application>
+</icegrid>
